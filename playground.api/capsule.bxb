@@ -1,0 +1,30 @@
+capsule {
+	id (playground.api) // 캡슐이름입니다. 실제 제작할때는 (팀이름(영문).캡슐이름) 으로 구성하시면 됩니다.
+	version (0.1.0) // 버전
+	format (3)
+	targets {
+		target (bixby-mobile-ko-KR) // 한글발화시에 꼭 필요합니다. en-EN을 바꿔주시면 됩니다.
+	}
+	runtime-flags {
+		concepts-inherit-super-type-features
+		modern-prompt-rejection
+		allow-dialogs-on-detail-pages
+		modern-default-view-behavior
+		no-fallback-to-result-collections
+		no-filtering-with-validation
+		use-input-views-for-selection-list-detail
+		support-halt-effect-in-computed-inputs
+	}
+	store-sections {
+		section (Productivity)
+		section (GamesAndFun) {
+			visibility-constraints {
+				country-constraints {
+					allowed-list {
+						allow (KR)
+					}
+				}
+			}
+		}
+	}
+}

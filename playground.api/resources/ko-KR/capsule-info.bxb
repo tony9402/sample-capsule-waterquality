@@ -1,0 +1,12 @@
+capsule-info{
+  search-keywords{
+    keyword (수질)
+    keyword (물)
+  }
+  display-name (수질가자)
+  developer-name (nodaeyoon)
+  icon-asset (/images/icon.png)
+  description ("Bixby Hackathon")
+  website-url (https://example.com/)
+  terms-url (https://example.com/terms-of-use/)
+}

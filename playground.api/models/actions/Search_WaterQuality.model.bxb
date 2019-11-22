@@ -1,0 +1,10 @@
+action (Search_WaterQuality) {
+  description (__DESCRIPTION__)
+  collect {
+    input (water) {
+      type (water)
+      min (Optional) max (One)
+    }
+  }
+  output (Water_info)
+}

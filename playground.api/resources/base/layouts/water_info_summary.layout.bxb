@@ -1,0 +1,25 @@
+layout {
+  match: Water_info (this)
+  mode (Summary)
+
+	content {
+		section {
+			content {
+				cell-card {
+					slot2 {
+						content {
+							order (PrimarySecondary)
+							primary ("#{value(this.fcltyMngNm)}")
+							secondary ("시설주소 : #{value(this.fcltyAddr)}")
+						}
+					}
+					slot3 {
+						label {
+							value ("#{value(this.liIndDivName)}")
+						}
+					}
+				}
+			}
+		}
+	}
+}

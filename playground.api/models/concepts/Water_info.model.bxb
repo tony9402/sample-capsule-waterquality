@@ -1,0 +1,51 @@
+structure (Water_info) {
+	description (Pri안에 있는 정보를 담는 구조체)
+	property (no) {
+		type (no)
+		min (Optional) max (One)
+	}
+	property (occrrncDt) {
+		type (occrrncDt)
+		min (Optional) max (One)
+	}
+	property (fcltyMngNm) {
+		type (fcltyMngNm)
+		min (Optional) max (One)
+	}
+	property (fcltyMngNo) {
+		type (fcltyMngNo)
+		min (Optional) max (One)
+	}
+	property (fcltyAddr) {
+		type (fcltyAddr)
+		min (Optional) max (One)
+	}
+	property (liIndDivName) {
+		type (liIndDivName)
+		min (Optional) max (One)
+	}
+	property (clVal) {
+		type (clVal)
+		min (Optional) max (One)
+	}
+	property (phVal) {
+		type (phVal)
+		min (Optional) max (One)
+	}
+	property (tbVal) {
+		type (tbVal)
+		min (Optional) max (One)
+	}
+	property (phUnit) {
+		type (phUnit)
+		min (Optional) max (One)
+	}
+	property (tbUnit) {
+		type (tbUnit)
+		min (Optional) max (One)
+	}
+	property (clUnit) {
+		type (clUnit)
+		min (Optional) max (One)
+	}
+}

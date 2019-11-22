@@ -1,0 +1,14 @@
+// layout-macro-def(water_info) {
+//   params {
+//     param (Water_info) {
+//       type (Water_info)
+//     }
+//   }
+
+//   content {
+//     section {  // this macro returns a "section"
+//       content {
+//       }
+//     }
+//   }
+// }

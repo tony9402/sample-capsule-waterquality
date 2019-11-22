@@ -1,0 +1,3 @@
+integer (fcltyMngNo) {
+  description (실시간수도정보시스템에서 관리 하는 시설관리번호)
+}

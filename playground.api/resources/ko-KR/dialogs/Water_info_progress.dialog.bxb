@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: Water_info (this)
+  template("검색중입니다 :D")
+}

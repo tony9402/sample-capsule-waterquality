@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Search_WaterQuality) {
+      accepted-inputs (water)
+      local-endpoint ("Search_Water.js")
+    }
+  }
+}

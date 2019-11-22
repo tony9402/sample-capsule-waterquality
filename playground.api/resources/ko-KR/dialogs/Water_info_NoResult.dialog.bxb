@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: Water_info (this)
+  template("결과가 없습니다")
+}

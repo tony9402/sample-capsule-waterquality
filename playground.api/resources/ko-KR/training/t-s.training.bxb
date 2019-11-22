@@ -1,0 +1,5 @@
+train (t-s1lurm64bgkjk2irkeyv6qiyx) {
+  utterance ("[g:Water_info] (수질)[v:water] 알고싶어")
+  plan (Y2BmkCzISaxML8ovzUvRSyzI1AtPLEktis/MS8tnUEKTCk5NLErOiAerCCxNzMksqWQQQVNTDpJkYGJgBGIGIMnIAAJMEAwA)
+  last-modified (1574360390180)
+}

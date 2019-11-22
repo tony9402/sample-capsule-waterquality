@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: Water_info (this)
+  template("전국의 상하수도 정류장 정보를 가져왔습니다")
+}

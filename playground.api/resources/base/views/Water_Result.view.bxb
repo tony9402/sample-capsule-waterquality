@@ -1,0 +1,17 @@
+// // 여기는 result-view 캡슐의 레이아웃을 전담하는 곳입니다.
+// // 값에 맞게 어떤 레이아웃을 띄울지 선책할 수 도 있습니다.
+
+// result-view {
+// 	match {
+// 		Water_info (result) {
+// 			min (Required)
+// 		}
+// 	}
+// 	render {
+// 		layout-macro (water_info) {
+// 			param (Water_info) {
+// 				expression(result)
+// 			}
+// 		}
+// 	}
+// }

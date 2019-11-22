@@ -1,0 +1,3 @@
+integer (occrrncDt) {
+  description (수질정보 측정된 발생일시)
+}
